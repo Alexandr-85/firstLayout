@@ -1,0 +1,508 @@
+@font-face { 
+    font-family: "Geometria-Medium";
+    src: url(fonts/Geometria-Medium.otf);
+    
+
+}
+
+
+body {
+	background: #ffffff;
+	color: #000000;
+	min-width: 320px;
+	max-width: 100%;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+}
+
+    
+/*=======header======*/
+
+.header {
+   margin: 20px 20px;
+}
+
+.header h1 {
+	font-size: 15px;
+    font-weight: 500;
+    white-space: pre;
+}
+
+
+.cat1 {
+padding-right: 15px;
+}
+
+.cat2 {
+padding-top: 35px; 
+width: 180px;
+vertical-align: bottom; 
+}
+
+.cat3, .cat4 {
+padding-right: 15px;
+padding-bottom: 3px;  
+
+}
+
+
+.header_text-1 {
+  margin-top: 15px;
+}
+
+.header_text-2 {
+  margin-top: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======panel-navigation======*/   
+
+.panel-navigation  {
+    background-color: #413471;
+    margin: 0 20px;
+}
+
+ .panel-navigation .navbar {
+    padding-top: 0px; 
+    padding-bottom: 0px;
+}
+
+.panel-navigation .nav-link {
+    padding: 18px 5px;
+}
+
+
+ .panel-navigation .navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.panel-navigation .btn-primary {
+	border-radius: 20px;
+	padding: .375rem 1.2rem;
+	background: #6d5cad;
+	border-color: transparent;
+	margin-top: 10px;
+	margin-right: 10px; 
+	box-shadow: unset;	
+}
+
+
+.panel-navigation a.nav-link:hover {
+    background: #241d3e;
+  }
+
+  .panel-navigation .btn-primary:hover {
+	background: linear-gradient(to right, #04accd, #76c29a);
+  }
+
+
+.panel-navigation .telefon {
+	padding-bottom: 3px; 
+	padding-right: 13px;
+}
+
+
+
+/*=======modal-window======*/
+
+.modal-window {
+   transform: translate(-50%, -50%);
+   top: 40%;
+   left: 50%;  
+   color: #626262;
+   width: 550px;
+   height: 450px;
+   position: fixed;
+   z-index: 30;
+   box-shadow: 0 0 0 700px rgba(64,64,64,0.8);
+   display: none;
+}
+
+.head-form {
+  background: #bcbcbc;
+  text-align: right;
+}
+
+.cross {
+	display: inline-block;
+    padding-top: 10px;
+	padding-right: 15px;
+	cursor: pointer;
+	z-index: 7;
+}
+
+
+.modal-window  h1 {
+ color: #000000;
+ font-size: 24px;
+ text-align: center;
+ padding-bottom: 40px; 
+ padding-top: 15px;
+ margin-bottom: 0px;	
+}
+
+.upper-form {	
+    padding: 0 120px;
+    background: #d3d3d0;	
+}
+
+.modal-window .form-control {
+   border-radius: 28px;
+   border-color: #9f9f9f;
+   height: 50px;
+   margin-bottom: 5px;
+}
+
+.modal-window label {
+   margin-left: 17px;
+   margin-top: 30px;
+}
+
+.modal-window .btn-primary {
+	height: 50px;
+	width: 100%;
+	border-radius: 28px;
+	background: #6d5cad;
+	border-color: transparent;
+	box-shadow: unset;
+	margin-top: 50px;
+	margin-bottom: 77px;	
+}
+
+
+
+
+
+
+
+
+
+
+/*=======slider-cats======*/ 
+
+
+.slider-cats {
+  margin: 55px 20px;
+}
+
+.slider-cats .carousel-indicators li {
+	border-radius: 100%;
+	width: 25px;
+	height: 25px;
+	margin: 0 10px;
+	border: 1px solid #1e1d1b;
+}
+
+.slider-cats .carousel-indicators .active {
+background: #6d6d6a;
+}
+
+.slider-cats .carousel-indicators li {
+	border-radius: 100%;
+	width: 25px;
+	height: 25px;
+	margin: 0 10px;
+	border: 1px solid #1e1d1b;
+}
+
+
+
+
+.carousel-control-next, .carousel-control-prev {
+	width: 70px;
+}
+
+
+
+
+/*=======top-menu======*/  
+
+
+.top-menu {
+	margin: 70px 20px;
+	text-align: center;
+}
+
+.picture  {
+	margin-top: 25px;
+	font-size:  24px;
+	font-weight: 500;
+	color: #ffffff;	
+}
+
+.cat1-04, .cat1-05, .cat1-06, .cat1-07 {
+	padding-top: 30px;
+}
+
+ .cat1-04, .cat1-05, .cat1-06, .cat1-07 {
+	padding-top: 15px;
+}
+
+
+.picture_1, .picture_2, .picture_3 , .picture_4 , 
+.picture_5 , .picture_6 , .picture_7 {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;	
+}
+
+ .picture_1 span, .picture_2 span, .picture_3 span, 
+ .picture_4 span, .picture_5 span, .picture_6 span, .picture_7 span {	
+	height: 55px;
+	background: #626262;
+	width: 100%;
+	opacity: 0.7;
+	text-align: left;
+	padding-left: 20px;
+	position: absolute;
+	left: 0px;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+ .picture_1 span, .picture_3 span, .picture_4 span, 
+ .picture_5 span, .picture_7 span {	
+	top: 80%;	
+}
+
+.picture_4 span, .picture_6 span {
+    line-height: 45px;	
+	top: 80%;	
+}
+
+.picture_6 span {
+    line-height: 42px;	
+	top: 90%;	
+}
+
+.picture_2 span {
+    line-height: 44px;	
+	top: 90%;	
+}
+
+.picture_5 span, .picture_7 span {
+    line-height: 45px;		
+}
+
+.picture span:hover {
+ background: linear-gradient(to right, #04accd, #76c29a);
+}
+
+
+
+
+/*=======footer======*/  
+
+
+.footer-text {
+	margin: 50px 0px;
+	background: #444349;
+	color: #ffffff;	
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+
+.footer-text .part_1 span {
+	display: inline-block;
+	font-size: 15px;
+	margin-left: 20px;
+	border-bottom: 1px solid #ffffff;
+}
+
+.footer-text .part_2 h2 {
+	margin-bottom: 0px;
+    font-size: 15px;
+	white-space: pre;
+}
+
+.footer-text .part_2 p {
+    font-size: 15px;
+	white-space: pre;
+}
+
+
+
+
+
+
+
+
+/*=========== media queries =================*/
+
+@media (min-width: 1200px) {
+
+.panel-navigation .btn-primary {  
+    margin-right: 0px;   
+}
+
+.cat1-03 {
+	height:441px;
+}
+.part_2 {
+padding-left: 30px;	
+}
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+
+
+.slider-cats {
+  margin: 55px 30px;
+}
+
+.picture span {
+    line-height: 35px;		
+}
+
+.part_2 {
+padding-left: 7px;	
+}
+		
+}
+ 
+
+@media (min-width: 992px) and (max-width: 1010px) { 
+.cat1-03 {
+	height: 367px;
+}		
+}
+
+
+
+
+
+@media (max-width: 991px) { 
+
+.panel-navigation .btn-primary {
+margin-bottom: 40px;
+width: 100%;	
+}
+ 	
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) { 
+
+.cat2 {
+width: 125px;
+}
+
+   
+.line-3 {
+	margin-top: 30px;
+}
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 768px) { 
+
+.header {
+   text-align: center;
+}
+
+.header h1 {
+	font-size: 20px;
+}
+
+.header_text-1 {
+  margin-right: 60px;
+}
+
+.cat3, .cat4 {
+padding-right: 35px;
+}
+
+
+
+.picture span {
+    line-height: 27px;		
+}
+
+.line-3 {
+	margin-top: 30px;
+}
+
+}
+
+
+@media (min-width: 320px) and (max-width: 576px) { 
+
+.header {
+   text-align: center;
+}
+
+.header_text-1 {
+  margin-right: 45px;
+}
+
+.cat3, .cat4 {
+padding-right: 25px;
+}
+
+
+
+.carousel-control-next, .carousel-control-prev {
+	width: 45px;
+}
+
+
+.line-2 {
+	margin-top: 30px;
+}
+
+.line-3 {
+	margin-top: 30px;
+}
+
+.footer-text {
+	text-align: center;
+}
+
+
+.modal-window {
+   top: 30%;
+   width: 270px;
+   height: 150px;
+}
+.upper-form {	
+    padding: 0 50px;	
+}
+
+.footer-text .part_2 h2 {
+	margin-top: 25px;
+    
+}
+
+
+
+}
+
+
+
+
